@@ -1,4 +1,4 @@
-var response = require('./methods.js');
+var response = require('./methods3.js');
 
-response.data.node(); 
+response.data.node();  
 console.log(response);
