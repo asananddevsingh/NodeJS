@@ -1,3 +1,3 @@
 var response = require('./methods7');
 
-console.log(response.node());
+console.log(response);
