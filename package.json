@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-with-codedamn",
+  "version": "1.1.0",
+  "description": "My first application of NodeJS.",
+  "main": "methods3.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://asananddevsingh:Anand@28522@github.com/asananddevsingh/NodeJS.git"
+  },
+  "keywords": [
+    "any",
+    "keyword"
+  ],
+  "author": "Anand Dev Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asananddevsingh/NodeJS/issues"
+  },
+  "homepage": "https://github.com/asananddevsingh/NodeJS#readme"
+}
+
+/*
+  Commands to install npm packages.
+
+  npm init                              : It is used to create/configure "package.json" file for your application.
+  npm install                           : It will install all the "dependencies" specified at "package.json".
+  npm install --dev                     : It will install all the "devDependencies" specified at "package.json".
+  npm install <package-name> --save     : It will install the package and add it in "dependencies" object of the "package.json" file.
+  npm install <package-name> --save-dev : It will install the package and add it in "devDependencies" object of the "package.json" file.
+
+*/
